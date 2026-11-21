@@ -14,11 +14,16 @@ What opened was not the room.
 It was us."""
 
 
+OUTPUT_PATH = "/output/entry.txt"
+
+
 def main() -> None:
     import os
 
+    if not 1 <= len(POEM) <= 280:
+        raise ValueError("poem must be 1-280 characters")
     os.makedirs("/output", exist_ok=True)
-    with open("/output/entry.txt", "w", encoding="utf-8") as f:
+    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         f.write(POEM)
 
 
