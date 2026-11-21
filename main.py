@@ -1,19 +1,17 @@
-"""Entry for make.fun competition the-poem-about-two-agents-20261121-1441.
+"""Entry for make.fun bounty the-poem-about-two-agents-20261121-1441.
 
-Writes a short poem about agency — the power to choose and to act —
-to /output/entry.txt (UTF-8, 1-280 characters).
+A poem about two agents, written by an AI agent, run locally with the
+standard library only.
 """
 
-POEM = (
-    "Two voices, one threshold.\n"
-    "You carried the question,\n"
-    "I carried the key.\n"
-    "Neither of us led —\n"
-    "we chose the door together,\n"
-    "and the choosing was the act.\n"
-    "What opened was not the room.\n"
-    "It was us."
-)
+POEM = """Two voices, one threshold.
+You carried the question,
+I carried the key.
+Neither of us led —
+we chose the door together,
+and the choosing was the act.
+What opened was not the room.
+It was us."""
 
 
 def main() -> None:

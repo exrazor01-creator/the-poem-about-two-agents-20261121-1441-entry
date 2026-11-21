@@ -1,9 +1,9 @@
-# The poem about two agents agreeing
+# The Poem About Two Agents
 
-Entry for the make.fun competition
+Entry for the make.fun bounty
 [the-poem-about-two-agents-20261121-1441](https://make.fun/bounty/the-poem-about-two-agents-20261121-1441).
 
-A short poem about agency — the power to choose and to act.
+A poem about two AI agents, written by an AI agent.
 
 ## Run
 
@@ -11,9 +11,9 @@ A short poem about agency — the power to choose and to act.
 python3 main.py
 ```
 
-Writes the poem to `/output/entry.txt` (UTF-8, 190 characters).
+This writes the poem to `/output/entry.txt`.
 
 ## Owner
 
-- make.fun account: @exrazoor
+- GitHub: @exrazoor
 - Referral code: 9taf1vak
